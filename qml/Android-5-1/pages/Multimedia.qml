@@ -1,5 +1,5 @@
 import QtQuick 2.0
-
+import QtMultimedia 5.0
 
 Rectangle {
     anchors.fill: parent
@@ -74,7 +74,7 @@ Rectangle {
                         mediaPlayer.stop()
                     }else
                     {
-                        mediaPlayer.source=Qt.resolvedUrl("/sdcard/testmedia.avi")
+                        mediaPlayer.source=Qt.resolvedUrl("file:///storage/sdcard0/Movies/testmedia.avi")
                         console.log(mediaPlayer.source)
                         mediaPlayer.play()
                     }

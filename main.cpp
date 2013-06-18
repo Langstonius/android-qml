@@ -1,9 +1,10 @@
 #include <QtGui/QGuiApplication>
 #include "qtquick2applicationviewer.h"
-
+#include <QFont>
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
 
     QString device = "";
     app.setApplicationDisplayName("Qt Test App");

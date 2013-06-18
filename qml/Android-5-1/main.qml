@@ -14,7 +14,6 @@ Rectangle {
         height: root.height - footerbar.height
         width: root.width
         source:"pages/Home.qml"
-
     }
 
     Rectangle{
